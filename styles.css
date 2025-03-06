@@ -1,0 +1,200 @@
+/* General Styles */
+body {
+    font-family: 'Cinzel', serif;
+    background-color: #B1C29E; /* New background color */
+    color: #2D2D2D; /* Dark gray for strong contrast */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #FCE7C8; /* Solid background color */
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 3px solid #D4AF37;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: #5A3E36; /* Dark brown for contrast */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5A3E36; /* Darker text for visibility */
+    font-size: 1.3em;
+    padding: 12px 18px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #8B5E3B;
+    text-shadow: 0 0 10px rgba(138, 79, 43, 0.8);
+}
+
+/* Sections */
+section {
+    padding: 160px 20px;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/* About Me Section */
+#about {
+    background-image: url('about-bg.jpg'); /* Replace with your image */
+}
+
+h2 {
+    font-size: 2.8em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    text-shadow: 0 0 12px rgba(212, 175, 55, 0.8);
+    color: #4A3223; /* Dark brown for better contrast */
+}
+
+#about p {
+    font-size: 1.6em;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #5A3E36; /* Deep brown for readability */
+}
+
+#about h3 {
+    font-size: 2.2em;
+    margin-top: 40px;
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+#about li {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+#about em {
+    font-style: italic;
+    font-size: 1.7em;
+}
+
+#about strong {
+    color: #5A3E36;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #FADA7A; /* New projects background */
+    color: #5A3E36; /* Dark brown text for contrast */
+}
+
+/* Projects Layout */
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 50px 0;
+    border: 3px solid #5A3E36; /* Edged border */
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2); /* Light effect */
+}
+
+.project video {
+    width: 550px;
+    border: 3px solid #D4AF37;
+}
+
+.project div {
+    max-width: 550px;
+    text-align: center;
+    font-size: 1.3em;
+    background: rgba(90, 62, 54, 0.9); /* Dark overlay for readability */
+    padding: 20px;
+    border: 3px solid #D4AF37;
+    color: #FCE7C8; /* Lighter text for contrast */
+}
+
+.project a {
+    display: inline-block;
+    padding: 12px 18px;
+    font-size: 1.2em;
+    background: #D4AF37;
+    color: #0D0D0D;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    border: 2px solid #8A6F27;
+}
+
+.project a:hover {
+    background: #FFF;
+    color: #0D0D0D;
+}
+
+/* Contact Section */
+#contacts {
+    background-color: #F0A04B; /* New contact section background */
+    color: #4A3223; /* Darker brown text */
+    padding: 150px 20px;
+}
+
+/* Contact List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: block;
+    margin: 15px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #4A3223;
+    font-size: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #8A6F27;
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    color: #FFF;
+    background: rgba(255, 255, 255, 0.4);
+    text-shadow: 0 0 12px #D4AF37;
+}
+
+/* Footer */
+footer {
+    background: #5A3E36;
+    color: #FCE7C8;
+    padding: 20px;
+    font-size: 1.2em;
+    margin-top: 50px;
+}
